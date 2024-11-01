@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     setIsLoading(true);
-      fetch('https://ac-inw.vercel.app//novoArtistas')
+      fetch('https://ac-inw.vercel.app/novoArtistas')
       .then(res => res.json())
       .then(data => {setArtistas(data), console.log(data)})
       .catch(err => console.log(err))
