@@ -3,12 +3,12 @@ import Sidebar from "./components/Sidebar";
 import Container from "./components/Container";
 import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer";
+import { useEffect } from "react";
 
 function App() {
 
   useEffect(() => {
-    setIsLoading(true);
-      fetch('https://ac-inw.vercel.app/novoArtistas')
+      fetch('https://ac-inw.vercel.app/artistas')
       .then(res => res.json())
       .then(data => {setArtistas(data), console.log(data)})
       .catch(err => console.log(err))
