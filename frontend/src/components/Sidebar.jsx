@@ -6,7 +6,7 @@ export default function Sidebar() {
     const { isLogged } = useContext(UserContext);
 
     return(
-        <aside className="bg-[#00CED1] rounded-lg w-3/12 flex justify-center items-center">
+        <aside className="bg-[#d6a724] rounded-lg w-3/12 flex justify-center items-center">
           {
           isLogged ? 
           <button className="bg-white py-2 px-4 rounded-full text-gray-900 font-medium hover:scale-105 transition duration-200">Criar Playlist</button>

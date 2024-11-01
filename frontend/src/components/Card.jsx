@@ -14,7 +14,7 @@ function Card({_id, name, image}) {
     return (
         <Link to={`/artistas/${_id}`}>
             <div>
-                <div className="w-36 h-36 m-5 flex flex-col items-center rounded-md overflow-hidden drop-shadow-md">
+                <div className="w-36 h-36 m-5 flex flex-col items-center rounded overflow-hidden drop-shadow-sm hover:drop-shadow-2xl transition duration-300">
                     <img src={image} alt="Capa do Album" className="w-full" />
                 </div>
                 <h1 className="text-white font-bold text-center mb-5">{name}</h1>

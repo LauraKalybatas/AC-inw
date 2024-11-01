@@ -17,13 +17,13 @@ export default function Header() {
     return (
         <header className="flex justify-around w-full h-28 items-center bg-[#2a2a2a]">
             <div className="flex flex-row">
-                <h1 className="text-4xl font-bold mr-3">Yanarafy</h1>
+                <h1 className="text-4xl font-bold mr-3">Lanniefy</h1>
             </div>
             <form className="relative">
             <input 
                 type="text" 
                 id="search" 
-                className="rounded-full text-white w-96 h-10 indent-10 outline-none bg-[#FFFFFF] focus:outline-2 focus:outline-gray-50 transition-all duration-500 ease-in-out"
+                className="rounded-full text-black w-96 h-10 indent-10 outline-none bg-[#FFFFFF] focus:outline-2 focus:outline-gray-50 transition-all duration-500 ease-in-out"
                 placeholder="Pesquise seu artista favorito..." 
                 value={search}
                 onChange={handleSearch}

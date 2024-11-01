@@ -16,7 +16,7 @@ export default function SearchPage() {
     }, [search])
 
     return (
-         <div className="bg-[#00CED1] rounded-lg w-8/12 p-8">
+         <div className="bg-[#d6a724] rounded-lg w-8/12 p-8">
             <SliderCards titulo="Resultados da busca">
             {
                 searchResults.length > 0 ?

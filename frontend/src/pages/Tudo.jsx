@@ -23,7 +23,7 @@ export default function Tudo() {
   },[])
 
     return(
-        <div className="bg-[#00CED1] rounded-lg w-8/12 grid grid-cols-1 justify-items-start pl-7 pt-7">
+        <div className="bg-[#d6a724] rounded-lg w-8/12 grid grid-cols-1 justify-items-start pl-7 pt-7">
          {isLoading ?
           <div className="flex flex-col flex-wrap justify-center items-center w-full font-bold gap-4">
             <p>Carregando...</p>

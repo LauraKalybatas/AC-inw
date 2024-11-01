@@ -48,7 +48,7 @@ export default function Artista() {
                 <img src={artista.image} alt="Capa do artista" className="w-[150px] rounded-xl"/>
                 <h1 className="text-6xl font-bold">{artista.name}</h1>
             </div>
-            <p className="text-xl text-center">{artista.bio}</p>
+            <p className="text-xl text-left">{artista.bio}</p>
           </>
         }
         </div>
